@@ -1,0 +1,264 @@
+
+html,body
+{   background-color:#f0f4f8;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+  .font-allerta {
+    margin-left:20px;
+    font-family: 'Allerta';
+    font-size: 17px;
+    padding:13px;
+  }
+    .font-didact  {
+      padding:20px;
+      float:right;
+      font-family: 'Didact Gothic';
+      font-size: 13px;
+
+}
+.topmenu-left {
+  color:#626b77;
+}
+.topmenu-right {
+  color:#55a8fd;
+}
+.nav .font-allerta {
+  float: left;
+  margin: 0 50px;
+}
+.nav .font-didact {
+
+}
+.nav{
+    overflow: hidden;
+  border-bottom-color:  #dfe6ee;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  background:white;
+}
+.nav2 {
+  background:white;
+  overflow: hidden;
+  border-bottom-color:  #dfe6ee;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  font-size:14px;
+  font-family:'Didact Gothic';
+  padding:20px;
+}
+
+.foo {
+  float: left;
+  width: 450px;
+  height: 550px;
+  margin: 5px;
+  box-shadow: 0px 2px 3px #d3d6da,
+        -2px 2px 5px #d3d6da, 2px 2px 5px #d3d6da;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.status {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+.blue {
+  background: #ffffff;
+}
+
+.green {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align:center;
+  font-family: 'Didact Gothic';
+  font-size:12px;
+  color:white;
+  background:#56d48f;
+}
+
+#profile1 {
+
+}
+.card {
+  background:white;
+   width: 450px;
+  height: 550px;
+  max-width: 450px;
+  float:left;
+  max-height: 550px;
+  border: 1px solid rgba(0, 0, 0, .2);
+justify-content:space-between;
+box-shadow: 0px 2px 3px #d3d6da,
+      -2px 2px 5px #d3d6da, 2px 2px 5px #d3d6da;
+}
+
+.container {
+  top: 10px;
+  right: 10px;
+}
+.profiles > .card {
+  margin: 10px;
+}
+.button{
+  border:none;
+  padding-left : 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+.color-green {
+  background:#56d48f;
+  color:white;
+}
+
+.available button {
+  background:#56d48f;
+  color:white;
+}
+
+.center button {
+
+}
+.color-white  {
+  background:#ffffff;
+  color:#3c495a;
+  border: 1px solid #ced9ee;
+}
+
+.color-grey {
+  color:#626b77;
+}
+
+.color-sky-blue {
+  color:#55a8fd;
+}
+.color-blue {
+  background:#55a8fd;
+  color:white;
+  box-shadow: 0px 2px 3px #d3d6da,
+        -2px 2px 5px #d3d6da, 2px 2px 5px #d3d6da;
+}
+.color-dark-grey {
+  color:#3c495a;
+}
+.color-dark-blue {
+  color:#3fa2ff
+}
+.profile-header{
+text-align:center;
+font-family: 'Hind Vadodara';
+}
+
+.nav2 div {
+  float: right;
+  margin-right: 50px;
+  font-size:20px;
+}
+.nav2 > span {
+    margin: 0 45px;
+}
+.profiles {
+  padding-left:130px;
+}
+.profile-name {
+  color:#3c495a;
+  font-size:25px;
+}
+.profile-skill {
+  color:#7f92a9;
+  font-size:17px;
+}
+.color-light-blue {
+  color:#55a8fd;
+}
+.profile-epic-coder {
+  color:#55a8fd;
+  font-size:14px;
+}
+.profile-freelancer {
+  color:#09bd5a;
+  font-size:14px;
+}
+.profile-description {
+  color:#7d8897;
+  font-size:15px;
+  padding:5px 5px 5px 5px;
+}
+.green-icon-color {
+  color:#09bd5a
+}
+.font-allerta i {
+  font-size:25px;
+}
+.top {
+  display: inline-block;
+  margin:10px;
+  width: 450px;
+  height: 50px;
+  min-width: 450px;
+}
+.top > .available{
+  float:left;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.top > .rate{
+  float:right;
+  padding-top: 20px;
+  padding-right: 47px;
+  color: #3c495a;
+  font-size: 22px;
+  font-family: 'Didact Gothic';
+}
+img[name="bar"] {
+  width:7%;
+  vertical-align:middle;
+  height:3%;
+}
+img:not([name="bar"]){
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:50%;
+  width:38%;
+  height:29%;
+  box-shadow: 0px 2px 3px #efefef,
+        -2px 2px 5px #efefef, 2px 2px 5px #efefef;
+}
+.center {
+  font-family: 'Didact Gothic';
+  text-align: center;
+  overflow:hidden;
+  width:100%
+}
+.viewProfile{
+  width:450px;
+  font-family: 'Didact Gothic';
+  height:94px;
+  background:white;
+  border-top:solid #ced9ee;
+  border-width:2px;
+  color:#3c495a;
+}
+.viewProfile:hover{
+  border:none;
+  border-top:solid #55a8fd;
+  background: #55a8fd;
+  color:white;
+}
+.footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+  height:250px;
+  background: #324258;
+}

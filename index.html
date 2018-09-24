@@ -4,185 +4,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Hind Vadodara' rel='stylesheet'>
-  <style>
-body {
-  background-color:#f0f4f8;
-}
-  .font-allerta {
-    margin-left:20px;
-    font-family: 'Allerta';
-    font-size: 17px;
-    padding:13px;
-  }
-    .font-didact  {
-      padding:20px;
-      float:right;
-      font-family: 'Didact Gothic';
-      font-size: 13px;
-
-}
-#nav .font-allerta {
-  float: left;
-  margin: 0 50px;
-}
-#nav .font-didact {
-
-}
-#nav{
-    overflow: hidden;
-  border-bottom-color:  #dfe6ee;
-  border-bottom-style: solid;
-  border-bottom-width: thin;
-  background:white;
-}
-#nav2 {
-  background:white;
-    overflow: hidden;
-  border-bottom-color:  #dfe6ee;
-  border-bottom-style: solid;
-  border-bottom-width: thin;
-}
-.foo {
-  float: left;
-  width: 450px;
-  height: 550px;
-  margin: 5px;
-  box-shadow: 0px 2px 3px #d3d6da,
-        -2px 2px 5px #d3d6da, 2px 2px 5px #d3d6da;
-  border: 1px solid rgba(0, 0, 0, .2);
-}
-
-.status {
-  width: 100px;
-  height: 50px;
-  border-radius: 10px;
-}
-.blue {
-  background: #ffffff;
-}
-
-.green {
-  text-align: center;
-  vertical-align: middle;
-  line-height: 30px;
-  text-align:center;
-  font-family: 'Didact Gothic';
-  font-size:12px;
-  color:white;
-  background:#56d48f;
-}
-
-#profile1 {
-
-}
-#card {
-  background:white;
-   width: 450px;
-  height: 550px;
-  max-width: 450px;
-  float:left;
-   max-height: 550px;
-    border: 1px solid rgba(0, 0, 0, .2);
-justify-content:space-between;
-box-shadow: 0px 2px 3px #d3d6da,
-      -2px 2px 5px #d3d6da, 2px 2px 5px #d3d6da;
-}
-
-.container {
-  top: 10px;
-  right: 10px;
-}
-#container > #card {
-  margin: 10px;
-}
-.button{
-  border:none;
-  padding-left : 7px;
-  padding-right: 7px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 15px;
-}
-
-.color-green {
-  background:#56d48f;
-  color:white;
-}
-
-.color-white {
-  background:#ffffff;
-  color:#3c495a;
-  border: 1px solid #ced9ee;
-}
-
-.color-blue {
-  background:#55a8fd;
-  color:white;
-  box-shadow: 0px 2px 3px #d3d6da,
-        -2px 2px 5px #d3d6da, 2px 2px 5px #d3d6da;
-}
-#top {
-  display: inline-block;
-  margin:10px;
-  width: 450px;
-  height: 50px;
-  min-width: 450px;
-}
-#top > #available{
-  float:left;
-  padding-top: 20px;
-  padding-left: 30px;
-}
-#top > #rate{
-  float:right;
-  padding-top: 20px;
-  padding-right: 47px;
-  color: #3c495a;
-  font-size: 22px;
-  font-family: 'Didact Gothic';
-}
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius:50%;
-  width:38%;
-  height:29%;
-  box-shadow: 0px 2px 3px #d3d6da,
-        -2px 2px 5px #d3d6da, 2px 2px 5px #d3d6da;
-}
-#center {
-  font-family: 'Didact Gothic';
-  text-align: center;
-}
-#viewProfile{
-  width:450px;
-  font-family: 'Didact Gothic';
-  height:92px;
-  background:white;
-  border-top:solid #ced9ee;
-  border-width:2px;
-  color:#3c495a;
-}
-#viewProfile:hover{
-  border:none;
-  background: #55a8fd;
-  color:white;
-}
-  </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div id="nav">
+    <div class="nav">
     <div class="font-allerta">
-    <i style="font-size:25px;" class="fa fa-envelope" aria-hidden="true"></i>&ensp;Hubstaff directory</div>
+    <img name="bar" src="hd.png"></img>
+    &ensp;Hubstaff directory </div>
     <div class="font-didact">
 <b>
-        <span style="color:#626b77;">  HOW IT WORKS &ensp;&ensp;&ensp;&ensp;BROWSE &nbsp;<i class="fa fa-angle-down"></i>&ensp;&ensp;&ensp;&ensp;
+        <span class="color-grey">  HOW IT WORKS &ensp;&ensp;&ensp;&ensp;BROWSE &nbsp;<i class="fa fa-angle-down"></i>&ensp;&ensp;&ensp;&ensp;
           SEARCH &ensp;&ensp;&ensp;&ensp;</span>
-        <span style="color:#55a8fd;">
+        <span class="color-sky-blue">
           START YOUR PROFILE
         </span> &ensp;&ensp;&ensp;&ensp;
-        <span style="color:#55a8fd;">
+        <span class="color-sky-blue">
           ADD YOUR AGENCY
         </span> </b>
 
@@ -190,178 +26,329 @@ img{
 
     </div>
 
-    <div style="font-size:14px; padding:20px; font-family:'Didact Gothic';" id="nav2">
-    <span style="margin: 0 45px;">
-    Home / All categories/Design & Multimedia / <span style="color:#55a8fd"><b>Profiles</</b></span> </span>
-    <div style="float: right; margin-right: 50px; font-size:20px;">
+    <div  class="nav2">
+    <span>
+    Home / All categories/Design & Multimedia / <span class="color-light-blue"><b>Profiles</b></span> </span>
+    <div>
       <i class="fa fa-bars"></i>&ensp;&ensp;
-      <i style="color:#3fa2ff;"class="fa fa-th-large"></i>
+      <i class="fa fa-th-large color-dark-blue "></i>
     </div>
     </div>
-    <div style=" height:100vh; ">
     <br>
-    <h3 style="text-align:center; color:#3c495a;font-family: 'Hind Vadodara';">PROFILES (420)</h3>
-    <div id="container" style=" padding-left:45px;">
+    <h3 class="profile-header color-dark-grey">PROFILES (420)</h3>
+    <div class="profiles">
       <!--PROFILE 0-->
-      <div id="card" >
-        <div id="top">
-          <div id="available">
-              <button class="button color-green" disabled>Available</button>
+      <div class="card" >
+        <div class="top">
+          <div class="available">
+              <button class="button" disabled>Available</button>
           </div>
-          <div id="rate">
+          <div class="rate">
               <b>$55/hr</b>
           </div>
       </div>
       <div>
       <img src="pro1.jpg" ></img></div><br>
-      <div id="center">
-          <span style="color:#3c495a; font-size:25px;">Wade Wilson</span><br>
-          <span style="color:#7f92a9; font-size:17px;">UI/UX Designer</span><br>
-          <i class="fa fa-laptop" style="color:#55a8fd" aria-hidden="true"></i>
-          <span style="color:#55a8fd; font-size:14px;">Epic Coder</span><br><br>
+      <div class="center">
+          <span class="profile-name">Wade Wilson</span><br>
+          <span class="profile-skill">UI/UX Designer</span><br>
+          <i class="fa fa-laptop color-light-blue" aria-hidden="true"></i>
+          <span class="profile-epic-coder">Epic Coder</span><br><br>
           <button class="button color-white" disabled>UI</button>
           <button class="button color-white" disabled>UX</button>
           <button class="button color-white" disabled>Photoshop</button>
           <button class="button color-blue" disabled>+4</button><br><br>
-          <span style="color:#7d8897; font-size:15px; padding:5px 5px 5px 5px;">
+          <span class="profile-description">
             Wade is a 32 year old UI/UX designer,with an impressive portfolio behind him
           </span><br><br>
       </div>
-      <div align="center" id="viewProfile"><br>VIEW PROFILE</div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
       </div>
 
 
               <!--PROFILE 1-->
-      <div id="card">
-        <div id="top">
-
-          <div id="rate">
+      <div class="card">
+        <div class="top">
+          <div class="rate">
               <b>$32/hr</b>
           </div>
       </div>
       <div>
       <img src="pro2.jpg" ></img></div><br>
-      <div id="center">
-          <span style="color:#3c495a; font-size:25px;">Maria Petrescu</span><br>
-          <span style="color:#7f92a9; font-size:17px;">Mobile developer</span><br>
-          <i class="fa fa-user"  style="color:#09bd5a" aria-hidden="true"></i>
-          <span style="color:#09bd5a; font-size:14px;">Freelancer</span><br><br>
+      <div class="center">
+          <span class="profile-name">Maria Petrescu</span><br>
+          <span class="profile-skill">Mobile developer</span><br>
+          <i class="fa fa-user green-icon-color" aria-hidden="true"></i>
+          <span class="profile-freelancer">Freelancer</span><br><br>
           <button class="button color-white" disabled>PHP</button>
           <button class="button color-white" disabled>Android</button>
           <button class="button color-white" disabled>iOS</button>
           <button class="button color-blue" disabled>+2</button><br><br>
-        <span style="color:#7d8897; font-size:15px; padding:5px 5px 5px 5px;">
+        <span class="profile-description">
             Maria is an android and iOS developer who worked at apple for 6 years.
           </span><br><br>
       </div>
-      <div align="center" id="viewProfile"><br>VIEW PROFILE</div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
       </div>
 
       <!--PROFILE 2-->
-      <div id="card">
-        <div id="top">
-          <div id="rate">
+      <div class="card">
+        <div class="top">
+          <div class="rate">
               <b>$42/hr</b>
           </div>
       </div>
       <div>
       <img src="pro3.jpg" ></img></div><br>
-      <div id="center">
-          <span style="color:#3c495a; font-size:25px;">Alexandra Morgan</span><br>
-          <span style="color:#7f92a9; font-size:17px;">Mobile Designer</span><br>
-          <i class="fa fa-user"  style="color:#09bd5a" aria-hidden="true"></i>
-          <span style="color:#09bd5a; font-size:14px;">Freelancer</span><br><br>
+      <div class="center">
+          <span class="profile-name">Alexandra Morgan</span><br>
+          <span class="profile-skill">Mobile Designer</span><br>
+          <i class="fa fa-user green-icon-color" aria-hidden="true"></i>
+          <span class="profile-freelancer">Freelancer</span><br><br>
           <button class="button color-white" disabled>PHP</button>
           <button class="button color-white" disabled>Android</button>
           <button class="button color-white" disabled>iOS</button>
           <button class="button color-blue" disabled>+12</button><br><br>
-          <span style="color:#7d8897; font-size:15px; padding:5px 5px 5px 5px;">
+          <span class="profile-description">
             Alexandra is a dedicated developer for mobile platforms and is very good at it.
           </span><br><br>
       </div>
-      <div align="center" id="viewProfile"><br>VIEW PROFILE</div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
       </div>
 
       <!--PROFILE 3-->
-      <div id="card" >
-        <div id="top">
-
-          <div id="rate">
+      <div class="card" >
+        <div class="top">
+          <div class="rate">
               <b>$44/hr</b>
           </div>
       </div>
       <div>
       <img src="pro4.jpg" ></img></div><br>
-      <div id="center">
-          <span style="color:#3c495a; font-size:25px;">Jeniffer Smith</span><br>
-          <span style="color:#7f92a9; font-size:17px;">Interactive Designer</span><br>
-          <i class="fa fa-user"  style="color:#09bd5a" aria-hidden="true"></i>
-          <span style="color:#09bd5a; font-size:14px;">Freelancer</span><br><br>
+      <div class="center">
+          <span class="profile-name">Jeniffer Smith</span><br>
+          <span class="profile-skill">Interactive Designer</span><br>
+          <i class="fa fa-user green-icon-color" aria-hidden="true"></i>
+          <span class="profile-freelancer">Freelancer</span><br><br>
           <button class="button color-white" disabled>PHP</button>
           <button class="button color-white" disabled>Android</button>
           <button class="button color-white" disabled>iOS</button>
           <button class="button color-blue" disabled>+2</button><br><br>
-          <span style="color:#7d8897; font-size:15px; padding:5px 5px 5px 5px;">
+          <span class="profile-description">
             Jeniffer is an interactive designer who is really awesome at what she does.
           </span><br><br>
       </div>
-      <div align="center" id="viewProfile"><br>VIEW PROFILE</div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
       </div>
 
 
               <!--PROFILE 4-->
-      <div id="card">
-        <div id="top">
-          <div id="available">
-              <button class="button color-green" disabled>Available</button>
+      <div class="card">
+        <div class="top">
+          <div class="available">
+              <button class="button" disabled>Available</button>
           </div>
-          <div id="rate">
+          <div class="rate">
               <b>$40/hr</b>
           </div>
       </div>
       <div>
       <img src="pro5.jpg" ></img></div><br>
-      <div id="center">
-          <span style="color:#3c495a; font-size:25px;">Svetlana Anyukova</span><br>
-          <span style="color:#7f92a9; font-size:17px;">Mobile developer</span><br>
-          <i class="fa fa-user"  style="color:#09bd5a" aria-hidden="true"></i>
-          <span style="color:#09bd5a; font-size:14px;">Freelancer</span><br><br>
+      <div class="center">
+          <span class="profile-name">Svetlana Anyukova</span><br>
+          <span class="profile-skill">Mobile developer</span><br>
+          <i class="fa fa-user green-icon-color" aria-hidden="true"></i>
+          <span class="profile-freelancer">Freelancer</span><br><br>
           <button class="button color-white" disabled>PHP</button>
           <button class="button color-white" disabled>Android</button>
           <button class="button color-white" disabled>iOS</button>
           <button class="button color-blue" disabled>+2</button><br><br>
-        <span style="color:#7d8897; font-size:15px; padding:5px 5px 5px 5px;">
+          <span class="profile-description">
             Svetlana is an Android and i0S designer with advanced knowledge in coding
           </span><br><br>
       </div>
-      <div align="center" id="viewProfile"><br>VIEW PROFILE</div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
       </div>
 
       <!--PROFILE 5-->
-      <div id="card">
-        <div id="top">
-          <div id="rate">
+      <div class="card">
+        <div class="top">
+          <div class="rate">
               <b>$30/hr</b>
           </div>
       </div>
       <div>
       <img src="pro6.jpg" ></img></div><br>
-      <div id="center">
-        <span style="color:#3c495a; font-size:25px;">Marko van Kooch</span><br>
-        <span style="color:#7f92a9; font-size:17px;">UI/UX Designer</span><br>
-        <i class="fa fa-laptop" style="color:#55a8fd" aria-hidden="true"></i>
-        <span style="color:#55a8fd; font-size:14px;">Visual Madness</span><br><br>
+      <div class="center">
+        <span class="profile-name">Marko van Kooch</span><br>
+        <span class="profile-skill">UI/UX Designer</span><br>
+        <i class="fa fa-laptop color-light-blue" aria-hidden="true"></i>
+        <span class="profile-epic-coder">Visual Madness</span><br><br>
         <button class="button color-white" disabled>UI</button>
         <button class="button color-white" disabled>UX</button>
         <button class="button color-white" disabled>Photoshop</button>
         <button class="button color-blue" disabled>+4</button><br><br>
-        <span style="color:#7d8897; font-size:15px; padding:5px 5px 5px 5px;">
+        <span class="profile-description">
           Marko is a 25 year old web designer with an impressive portfolio behind him
         </span><br><br>
       </div>
-      <div align="center" id="viewProfile"><br>VIEW PROFILE</div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
       </div>
 
+      <!--PROFILE 6-->
+      <div class="card">
+        <div class="top">
+          <div class="rate">
+              <b>$50/hr</b>
+          </div>
+      </div>
+      <div>
+      <img src="pro7.jpg" ></img></div><br>
+      <div class="center">
+        <span class="profile-name">Pawel Koszentka</span><br>
+        <span class="profile-skill">UX Designer</span><br>
+        <i class="fa fa-laptop color-light-blue" aria-hidden="true"></i>
+        <span class="profile-epic-coder">Apple Inc.</span><br><br>
+        <button class="button color-white" disabled>UI</button>
+        <button class="button color-white" disabled>UX</button>
+        <button class="button color-white" disabled>Photoshop</button>
+        <button class="button color-blue" disabled>+4</button><br><br>
+        <span class="profile-description">
+          Pawel is a 32 year old UX designer, with over 10 years of experience in what he does
+        </span><br><br>
+      </div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
+      </div>
+
+      <!--PROFILE 7-->
+      <div class="card">
+        <div class="top">
+          <div class="rate">
+              <b>$32/hr</b>
+          </div>
+      </div>
+      <div>
+      <img src="pro8.jpg" ></img></div><br>
+      <div class="center">
+        <span class="profile-name">Sonia Simionov</span><br>
+        <span class="profile-skill">Mobile Designer</span><br>
+        <i class="fa fa-user green-icon-color" aria-hidden="true"></i>
+        <span class="profile-freelancer">Freelancer</span><br><br>
+        <button class="button color-white" disabled>UI</button>
+        <button class="button color-white" disabled>UX</button>
+        <button class="button color-white" disabled>Photoshop</button>
+        <button class="button color-blue" disabled>+4</button><br><br>
+        <span class="profile-description">
+          Sonia is an android and iOS developer who worked at Apple for 6 years.
+        </span><br><br>
+      </div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
+      </div>
+
+      <!--PROFILE 8-->
+      <div class="card">
+        <div class="top">
+          <div class="rate">
+              <b>$40/hr</b>
+          </div>
+      </div>
+      <div>
+      <img src="pro9.jpg" ></img></div><br>
+      <div class="center">
+        <span class="profile-name">Jonathan Wayne</span><br>
+        <span class="profile-skill">Photographer</span><br>
+        <i class="fa fa-laptop color-light-blue" aria-hidden="true"></i>
+        <span class="profile-epic-coder">Epic Coders</span><br><br>
+        <button class="button color-white" disabled>UI</button>
+        <button class="button color-white" disabled>UX</button>
+        <button class="button color-white" disabled>Photoshop</button>
+        <button class="button color-blue" disabled>+4</button><br><br>
+        <span class="profile-description">
+          Johnathan is a 28 year old photohrapher from London with a real talent for what he does
+        </span><br><br>
+      </div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
+      </div>
+
+      <!--PROFILE 9-->
+      <div class="card">
+        <div class="top">
+          <div class="rate">
+              <b>Free</b>
+          </div>
+      </div>
+      <div>
+      <img src="pro10.jpg" ></img></div><br>
+      <div class="center">
+        <span class="profile-name">Batman</span><br>
+        <span class="profile-skill">Superhero</span><br>
+        <i class="fa fa-user green-icon-color" aria-hidden="true"></i>
+        <span class="profile-freelancer">Freelancer</span><br><br>
+        <button class="button color-white" disabled>Tech</button>
+        <button class="button color-white" disabled>IT</button>
+        <button class="button color-white" disabled>Martial Arts</button>
+        <button class="button color-blue" disabled>+4</button><br><br>
+        <span class="profile-description">
+          I'm Batman!<br>
+        </span><br><br>
+      </div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
+      </div>
+
+      <!--PROFILE 10-->
+      <div class="card">
+        <div class="top">
+          <div class="rate">
+              <b>$39/hr</b>
+          </div>
+      </div>
+      <div>
+      <img src="pro11.jpg" ></img></div><br>
+      <div class="center">
+        <span class="profile-name">Chance Sutton</span><br>
+        <span class="profile-skill">Mobile Designer</span><br>
+        <i class="fa fa-user green-icon-color" aria-hidden="true"></i>
+        <span class="profile-freelancer">Freelancer</span><br><br>
+        <button class="button color-white" disabled>PHP</button>
+        <button class="button color-white" disabled>Android</button>
+        <button class="button color-white" disabled>iOS</button>
+        <button class="button color-blue" disabled>+2</button><br><br>
+        <span class="profile-description">
+          Georgiana is an android and iOS developer who worked at Apple for 6 years.
+        </span><br><br>
+      </div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
+      </div>
+
+      <!--PROFILE 11-->
+      <div class="card">
+        <div class="top">
+          <div class="rate">
+              <b>$45/hr</b>
+          </div>
+      </div>
+      <div>
+      <img src="pro12.jpg" ></img></div><br>
+      <div class="center">
+        <span class="profile-name">Gregory Johnes</span><br>
+        <span class="profile-skill">UI/UX Designer</span><br>
+        <i class="fa fa-laptop color-light-blue" aria-hidden="true"></i>
+        <span class="profile-epic-coder">Epic Coders</span><br><br>
+        <button class="button color-white" disabled>UI</button>
+        <button class="button color-white" disabled>UX</button>
+        <button class="button color-white" disabled>Photoshop</button>
+        <button class="button color-blue" disabled>+4</button><br><br>
+        <span class="profile-description">
+          Gregory is a 32 year old UI/UX desiner, with an impressive portfolio behind him.
+        </span><br><br>
+      </div>
+      <div align="center" class="viewProfile"><br>VIEW PROFILE</div>
     </div>
+  </div><br>
+<br><br>
+  <div class="footer">
+
+  </div>
+
   </body>
 </html>
